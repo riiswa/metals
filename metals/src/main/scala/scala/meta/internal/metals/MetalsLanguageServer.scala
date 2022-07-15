@@ -571,6 +571,7 @@ class MetalsLanguageServer(
           buffers,
           definitionProvider,
           referencesProvider,
+          clientConfig.icons,
           remote,
           trees,
           buildTargets
