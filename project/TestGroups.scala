@@ -98,7 +98,8 @@ object TestGroups {
       "tests.PathTrieSuite", "tests.scalafix.ScalafixProviderLspSuite",
       "tests.MtagsScala3Suite",
       "tests.codeactions.ConvertToNamedArgumentsLspSuite",
-      "tests.testProvider.TestSuitesProviderSuite", "tests.MillVersionSuite"),
+      "tests.testProvider.TestSuitesProviderSuite", "tests.MillVersionSuite",
+      "tests.CallHierarchyLspSuite"),
   )
 
 }

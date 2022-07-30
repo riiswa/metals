@@ -575,7 +575,7 @@ class MetalsLanguageServer(
           () => compilers,
           remote,
           trees,
-          buildTargets
+          buildTargets,
         )
         implementationProvider = new ImplementationProvider(
           semanticdbs,
