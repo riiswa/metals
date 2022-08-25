@@ -569,12 +569,10 @@ class MetalsLanguageServer(
         callHierarchyProvider = new CallHierarchyProvider(
           workspace,
           semanticdbs,
-          buffers,
           definitionProvider,
           referencesProvider,
           clientConfig.icons,
           () => compilers,
-          remote,
           trees,
           buildTargets,
         )
